@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial,sans-serif;
+        }
+
+        nav{
+            background:#333;
+            padding:15px;
+        }
+
+        #menu-toggle{
+            display:none;
+        }
+
+        .hamburger{
+            display:none;
+            color:rgb(250, 242, 242);
+            font-size:25px;
+            cursor:pointer;
+        }
+
+        .menu{
+            list-style:none;
+            display:flex;
+            justify-content:center;
+        }
+
+        .menu li{
+            margin:0 15px;
+        }
+
+        .menu a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .container{
+            display:flex;
+            justify-content:space-around;
+            padding:20px;
+            gap:20px;
+        }
+
+        .box{
+            background:lightblue;
+            padding:20px;
+            width:30%;
+            text-align:center;
+            border-radius:10px;
+        }
+
+        @media(max-width:768px){
+
+            .hamburger{
+                display:block;
+            }
+
+            .menu{
+                display:none;
+                flex-direction:column;
+                text-align:center;
+                margin-top:10px;
+            }
+
+            #menu-toggle:checked + .hamburger + .menu{
+                display:flex;
+            }
+
+            .container{
+                flex-direction:column;
+                align-items:center;
+            }
+
+            .box{
+                width:80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger">☰</label>
+
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="box">Section 1</div>
+    <div class="box">Section 2</div>
+    <div class="box">Section 3</div>
+</div>
+
+</body>
+</html>
