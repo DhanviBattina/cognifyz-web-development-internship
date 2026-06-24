@@ -4,25 +4,25 @@ This reprository contains the tasks that i have finisheed during the Web develop
 
 ## Level 1
 
-### task_1.html
+### TASK_1.html
 - Navigation Menu
 - Heading
 - Paragraph
 - Image
 - Form with Input Field and Submit Button
 
-### task_2.html
+### TASK_2.html
 - Color Change Button
 - Greeting Alert Message
 - Simple Calculator
 
 ## Level 2
 
-### Task_1.html
+### TASK_1.html
 - Responsive Card Component using Bootstrap
 - Responsive Grid Layout
 
-### Task_2.html
+### TASK_2.html
 - Responsive Design using CSS Media Queries
 - Mobile-Friendly Navigation Menu
 
@@ -33,4 +33,4 @@ This reprository contains the tasks that i have finisheed during the Web develop
 - Bootstrap
 
 ## Author
-BATTINS DHANVI HARSHAAVARDHAN
+BATTINA DHANVI HARSHAVARDHAN
